@@ -16,7 +16,7 @@ class Artist
     @@artists.detect{|a| a.name == name} #whose name is the current instances
   end
 
-  self.all #returns array of all artists
+  def self.all #returns array of all artists
     @@artists
   end
 
