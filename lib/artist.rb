@@ -29,7 +29,7 @@ class Artist
     songs.each { |song| add_song(song) } #iterates through all songs and for each one, adds song?
   end
 
-  def to_param
-    name.downcase.gsub(' ', '-') #takes a string, makes it lowercase, replaces " " with "-"
-  end
+  #def to_param
+    #name.downcase.gsub(' ', '-') #takes a string, makes it lowercase, replaces " " with "-"
+  #end
 end
